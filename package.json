@@ -10,10 +10,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/natashacwolfe/Budget-tracker"
+    "url": "git+https://github.com/natashacwolfe/Budget-tracker.git"
   },
   "author": "",
   "license": "ISC",
+  "homepage": "https://github.com/natashacwolfe/Budget-tracker.git#readme",
   "dependencies": {
     "compression": "^1.7.4",
     "express": "^4.17.1",
