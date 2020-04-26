@@ -25,7 +25,7 @@ mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/budget", {
 // routes
 app.use(require("./routes/api.js"));
 
-app.get("/index", function(req, res) {
+app.get("/", function(req, res) {
   res.sendFile(path.join(__dirname, "./public/index.html"));
 });
 
